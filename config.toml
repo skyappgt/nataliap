@@ -30,7 +30,7 @@ copyright = "&copy;2019"
     # Image
     [params.visual.image]
       enable = true
-      file = "images/actress.jpg"
+      file = "/images/actress.jpg"
       position = "center center"
       
 
