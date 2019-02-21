@@ -147,13 +147,19 @@ body.page-template-page-fullsingle-split p {
     flex-wrap: wrap;
   }
 }
-.split-social{
-  text-align: center;
+
+/**********************icons ***/
+.fa {
+  font-size: xx-large;
+  padding: 7px;
 }
-.split-social .split-lists {
-  padding: 10px;
+.split-lists {
+  text-align: center;
   display: inline;
-  
+}
+.split-icons {
+  padding: 10px;
+    
 }
 
 .fs-split .split-img {

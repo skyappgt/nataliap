@@ -20,13 +20,14 @@
 
 </div>-->
 
+<div class="split-lists">
   <div class="split-social">
     {{ if .Site.Params.facebook}}
-    <div class="split-lists" target="blank" href="https://facebook.com/{{.Site.Params.facebook}}">
+    <a class="split-lists" target="blank" href="https://facebook.com/{{.Site.Params.facebook}}">
       <span class="icon">
         <i class="fa fa-facebook"></i>
       </span>
-    </div>
+    
     {{end}}
 
     {{ if .Site.Params.instagram}}
@@ -44,5 +45,5 @@
     </a>
     {{end}}
     
-  
+  </div>
 </div>
