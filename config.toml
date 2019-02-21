@@ -1,8 +1,8 @@
 # Site settings
-baseURL = "/"
+baseURL = ""
 languageCode = "es-ES"
-title = "Cantante"
-theme = "hugo-split-theme"
+title = "Natalia"
+#theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
 # Enter your tracking code to enable Google Analytics
