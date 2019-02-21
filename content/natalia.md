@@ -1,0 +1,6 @@
++++
+title = "Biografía"
+
++++
+
+[Regresar]({{<ref "/" >}}) 

@@ -1,0 +1,48 @@
+<!--
+<div class="split-lists">
+
+  {{ range $key, $value := .Site.Params.links }}
+    {{ range $key, $list := $value }}
+
+    {{ if $list.link }}
+      <div class="split-list">
+        <h3>{{ $list.heading }}</h3>
+        <ul>
+          {{ range $list.link }}
+            <li><a href="{{ .url }}">{{ .text }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+
+    {{ end }}
+  {{ end }}
+
+</div>-->
+
+  <div class="split-social">
+    {{ if .Site.Params.facebook}}
+    <div class="split-lists" target="blank" href="https://facebook.com/{{.Site.Params.facebook}}">
+      <span class="icon">
+        <i class="fa fa-facebook"></i>
+      </span>
+    </div>
+    {{end}}
+
+    {{ if .Site.Params.instagram}}
+    <a class="split-lists" target="blank" href="https://instagram.com/{{.Site.Params.instagram}}">
+      <span class="icon">
+        <i class="fa fa-instagram"></i>
+      </span>
+    </a>
+    {{end}}
+    {{ if .Site.Params.wasap}}
+    <a class="split-lists" target="blank" href="tel:{{.Site.Params.wasap }}">
+      <span class="icon">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      </span>
+    </a>
+    {{end}}
+    
+  
+</div>
