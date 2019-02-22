@@ -28,7 +28,13 @@
       <div class="split-content-vertically-center">
         <!-- Intro -->
         {{ partial "intro" . }}
-
+        {{ if ne .URL "/" }}
+        <a class="split-lists" target="blank" href="/">
+          <span class="icon">
+            <i class="fa fa-home" aria-hidden="true"></i>
+          </span>
+        </a>
+        {{ end }}
         <!-- Main -->
         {{ block "main" .  }}
           <!-- Bio -->
