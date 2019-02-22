@@ -3,4 +3,4 @@ title = "Videos"
 
 +++
 
-[Regresar](nataliapineda.ml) 
+[Regresar]({{< ref  "/_index.md" >}}) 

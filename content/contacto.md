@@ -3,4 +3,4 @@ title = "Contacto"
 tagline = "Natalia Pineda."
 +++
 
-[Regresar](nataliapinedal.ml) 
+[Regresar]({{< ref  "/_index.md" >}})) 
