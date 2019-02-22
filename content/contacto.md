@@ -3,4 +3,4 @@ title = "Contacto"
 tagline = "Natalia Pineda."
 +++
 
-[Regresar]({{< relref "index.md" >}}) 
+[Regresar]({{< relref "_index.md" >}}) 
