@@ -166,10 +166,9 @@ body.page-template-page-fullsingle-split p {
   width: 50%;
   height: 100vh;
   background-size: cover;
-  background-image: url("/images/actress.jpg");
-  background-position: top center;
+  /*background-image: url("/images/actress.jpg");
+  background-position: top center; */
   
-  -webkit-mask-image: cross-fade();
 }
 @media (max-width: 800px) {
   .fs-split .split-img {
