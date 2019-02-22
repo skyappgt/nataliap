@@ -3,4 +3,4 @@ title = "Videos"
 
 +++
 
-[Regresar]({{< ref "_index.md" >}}) 
+[Regresar]({{< ref "index.md" >}}) 
