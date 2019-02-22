@@ -3,6 +3,6 @@ title = "Cantante"
 tagline = "Natalia Pineda."
 +++
 
-[Natalia]({{< ref "natalia.md" >}}) 
-[Videos]({{< ref "vid.md" >}}) 
-[Contacto]({{< ref "contacto.md" >}}) 
+[Natalia]({{< relref "natalia.md" >}}) 
+[Videos]({{< relref "vid.md" >}}) 
+[Contacto]({{< relref "contacto.md" >}}) 
