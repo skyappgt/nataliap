@@ -3,4 +3,4 @@ title = "Biografía"
 
 +++
 
-[Regresar]({{<ref "/" >}}) 
+[Regresar]({{< ref "/" >}}) 

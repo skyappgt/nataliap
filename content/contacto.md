@@ -3,4 +3,4 @@ title = "Contacto"
 tagline = "Natalia Pineda."
 +++
 
-[Regresar]({{<ref "/" >}}) 
+[Regresar]({{< ref "/" >}}) 
